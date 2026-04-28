@@ -1,2 +1,2 @@
 # Breakthrough
-Text based game with a server and client built completely from Java.
+Text based game where client works alongside the server by acting as the player interface in the system. It connects to the server using Java sockets, receives messages like the game board and turn notifications, and allows the user to input moves when prompted. The client sends those moves to the server, then displays updated game information, ensuring smooth communication and real-time interaction between both players through the server.
